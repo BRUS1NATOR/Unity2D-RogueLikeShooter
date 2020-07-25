@@ -18,7 +18,7 @@ Some code may be stupid :)<br />
 
 ## Dynamic lights & shadows! ##
 
-![alt text](Images/Light_2.png) ![alt text](Images/Light_1.png)
+![alt text](Images/light_2.png) ![alt text](Images/light_1.png)
 
 ## Enemies! ##
 * Several types of enemies such as melee and firerange.
