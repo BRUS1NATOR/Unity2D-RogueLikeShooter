@@ -14,6 +14,7 @@ Some code may be stupid :)<br />
 * Fully configurable envriments, from walls and tiles to barrels, paintings and torches!
 
 ![alt text](Images/Generation.gif)
+![alt text](Images/Screenshot_2.png) ![alt text](Images/Screenshot_3.png)
 
 ## Enemies! ##
 * Several types of enemies such as melee and firerange.
@@ -21,7 +22,7 @@ Some code may be stupid :)<br />
 * Enemies and there spawn amount can be changed, depending on game stage.
 * Enemies are using default unity navmap.
 
-![alt text](Images/Screenshot_2.png) ![alt text](Images/Screenshot_3.png)
+![alt text](Images/Screenshot_5.png)
 
 ## Weapons! ##
 * Laser gun
@@ -30,11 +31,15 @@ Some code may be stupid :)<br />
 * SMG
 * Pistol
 
+![alt text](Images/Screenshot_6.png)
+
 ## Items! ##
 * Useable: Slow time, C4, invincibility for short time etc.
 * Passive: Health, ammo, fire bullets etc.
 * Items and there spawn can be changed, depending on game stage.
 * Items can be bought in shops or be found in chests.
+
+![alt text](Images/Screenshot_7.png)
 
 ## Dynamic minimap! ##
 
