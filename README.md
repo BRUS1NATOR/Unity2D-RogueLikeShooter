@@ -23,6 +23,7 @@ Some code may be stupid :)<br />
 * Enemies are using default unity navmap.
 
 ![alt text](Images/Screenshot_5.png)
+![alt text](Images/Screenshot_8.png)
 
 ## Weapons! ##
 * Laser gun
@@ -42,6 +43,7 @@ Some code may be stupid :)<br />
 ![alt text](Images/Screenshot_7.png)
 
 ## Dynamic minimap! ##
+![alt text](Images/Screenshot_9.png)
 
 Light and shadows with SpriteLightKit! https://github.com/prime31/SpriteLightKit <br />
 Destruction with Unity-2D-Destruction https://github.com/mjholtzem/Unity-2D-Destruction <br />
