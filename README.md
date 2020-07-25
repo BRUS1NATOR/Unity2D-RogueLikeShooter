@@ -13,11 +13,15 @@ Some code may be stupid :)<br />
 * Many settins such as room amount, shops amount, secret room amount, rooms width and height, different chances etc.
 * Fully configurable envriments, from walls and tiles to barrels, paintings and torches!
 
+![alt text](Images/Generation.gif)
+
 ## Enemies! ##
 * Several types of enemies such as melee and firerange.
 * Bosses!<br />
 * Enemies and there spawn amount can be changed, depending on game stage.
 * Enemies are using default unity navmap.
+
+![alt text](Images/Screenshot_2.png) ![alt text](Images/Screenshot_3.png)
 
 ## Weapons! ##
 * Laser gun
