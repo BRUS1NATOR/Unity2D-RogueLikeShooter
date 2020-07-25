@@ -1,7 +1,7 @@
 # RogueLike
 RogueLike shooter on Unity
 
-Be aware, this is an old project for unity 2018.1 that ported to unity 2019.3, something may not work.\n
+Be aware, this is an old project for unity 2018.1 that ported to unity 2019.3, something may not work.
 So comments are in russian.
 So code may be stupid :) 
 There is a very little documentation made with Doxygen in Russian, search for index.html in Documentation folder.
