@@ -1,10 +1,10 @@
 # RogueLike
 RogueLike shooter on Unity
 <p>
-Be aware, this is an old project for unity 2018.1 that ported to unity 2019.3, something may not work.<br />
-There is a very little documentation made with Doxygen in Russian, search for index.html in Documentation folder.<br />
-Some comments are in russian.<br />
-So code may be stupid :) <br />
+* Be aware, this is an old project for unity 2018.1 that ported to unity 2019.3, something may not work.
+* There is a very little documentation made with Doxygen in Russian, search for index.html in Documentation folder.
+* Some comments are in russian.
+* Some code may be stupid :)
 </p>
 <p>
 Random generation with room formation preset (cut corners, small room etc.)!<br />
