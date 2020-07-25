@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a0fdd13f6dd35064091ea646ce6f6b52
+labels:
+- Audio
+- Sound
+- FX
+- Footsteps
+- Carpet
+- Pack
+- Wav
+- Loop
+- Fall
+- Landing
+- Run
+- Sprint
+- Turning
+- Walk
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

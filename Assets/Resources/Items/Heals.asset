@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f45dd0a380478e44b08f77dbb2d9f1a, type: 3}
+  m_Name: Heals
+  m_EditorClassIdentifier: 
+  items:
+  - item: {fileID: 1650565877368613807, guid: aa403557a483e554180bf02dac85c76d, type: 3}
+    chance: 0.25
+    prices: 190000001e000000
+  - item: {fileID: 4091668300774689610, guid: 918ba1ed83c7f3e4a8c24556e7d8fa05, type: 3}
+    chance: 0.5
+    prices: 2300000028000000

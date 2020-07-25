@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Corridor
+  - Wall
+  - GameManager
+  - Grid
+  - Enemy
+  - Room
+  - Player_Trigger
+  - NPC
+  - HitBox
+  - Hands
+  - Body
+  - Destructible
+  - PlayerTrigger
+  - Door
+  - AreaDetector
+  - Not Walkable
+  - PlayerHitBox
+  - Shop
+  - SecretCorridor
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Particles
+  - 
+  - 
+  - Enemy
+  - 
+  - 
+  - Player
+  - Walls
+  - HitBox
+  - Bullet
+  - 
+  - Interact
+  - RangeDamage
+  - 
+  - Area
+  - 
+  - Rooms
+  - NotWalkable
+  - Floor
+  - MiniMap
+  - Walkable
+  - NavAgent
+  - ShadowCaster
+  - Light
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 2604434161
+    locked: 0
+  - name: Floor
+    uniqueID: 2435570077
+    locked: 0
+  - name: UnderDefault
+    uniqueID: 1359911733
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Walls
+    uniqueID: 358378967
+    locked: 0
+  - name: Upper
+    uniqueID: 2184882523
+    locked: 0
+  - name: UI
+    uniqueID: 2183671065
+    locked: 0

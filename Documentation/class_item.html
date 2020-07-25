@@ -1,0 +1,816 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Класс Item</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="ShopIcon.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">1.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.16 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="#pro-methods">Защищенные члены</a> &#124;
+<a href="#events">События</a> &#124;
+<a href="#pri-methods">Закрытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="class_item-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Item</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Класс от которого наследуются предметы  
+ <a href="class_item.html#details">Подробнее...</a></p>
+<div class="dynheader">
+Граф наследования:Item:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_item.png" usemap="#Item_map" alt=""/>
+  <map id="Item_map" name="Item_map">
+<area href="class_passive_item.html" title="Предметы, единовременно изменяющие характеристики оружия или персонажа" alt="PassiveItem" shape="rect" coords="0,112,104,136"/>
+<area href="class_useable_item.html" title="Предметы которые могут многократно использоваться" alt="UseableItem" shape="rect" coords="228,112,332,136"/>
+<area href="class_weapon_item.html" title="Предмет содержащий оружие" alt="WeaponItem" shape="rect" coords="342,112,446,136"/>
+<area href="class_ammo___refill_all.html" alt="Ammo_RefillAll" shape="rect" coords="114,168,218,192"/>
+<area href="class_health_flask.html" alt="HealthFlask" shape="rect" coords="114,224,218,248"/>
+<area href="class_increase___health.html" alt="Increase_Health" shape="rect" coords="114,280,218,304"/>
+<area href="class_increase___speed.html" alt="Increase_Speed" shape="rect" coords="114,336,218,360"/>
+<area href="class_modificator_item.html" title="Предметы &quot;Модификаторы&quot;, единовременно изменяющие характеристики оружия или персонажа" alt="ModificatorItem" shape="rect" coords="114,392,218,416"/>
+<area href="class_blessed___shield.html" alt="Blessed_Shield" shape="rect" coords="342,168,446,192"/>
+<area href="class_bomb___item.html" title="Предмет &quot;Бомба&quot;" alt="Bomb_Item" shape="rect" coords="342,224,446,248"/>
+<area href="class_slow_time.html" alt="SlowTime" shape="rect" coords="342,280,446,304"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a4f58e523ccf43b91814d78638c4d2bcc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a4f58e523ccf43b91814d78638c4d2bcc">SetItem</a> (int Price)</td></tr>
+<tr class="memdesc:a4f58e523ccf43b91814d78638c4d2bcc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация предмета  <a href="class_item.html#a4f58e523ccf43b91814d78638c4d2bcc">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4f58e523ccf43b91814d78638c4d2bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4480931367b8f6fc9416f4dbd2b025b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ac4480931367b8f6fc9416f4dbd2b025b">SetUpInteraction</a> ()</td></tr>
+<tr class="separator:ac4480931367b8f6fc9416f4dbd2b025b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a419a693722f376c3155312399ea8bd86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a419a693722f376c3155312399ea8bd86">Interact</a> ()</td></tr>
+<tr class="memdesc:a419a693722f376c3155312399ea8bd86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Взаимодействие с предметом  <a href="class_item.html#a419a693722f376c3155312399ea8bd86">Подробнее...</a><br /></td></tr>
+<tr class="separator:a419a693722f376c3155312399ea8bd86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c1e4d5e2793042bda61301962985df"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a38c1e4d5e2793042bda61301962985df">Give</a> (<a class="el" href="class_n_p_c.html">NPC</a> parent)</td></tr>
+<tr class="memdesc:a38c1e4d5e2793042bda61301962985df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Дать предмет <a class="el" href="class_n_p_c.html" title="Основной класс от которого наследуются &quot;живые&quot; существа">NPC</a>  <a href="class_item.html#a38c1e4d5e2793042bda61301962985df">Подробнее...</a><br /></td></tr>
+<tr class="separator:a38c1e4d5e2793042bda61301962985df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae59452a91899def3b5f6ba866ee2a20d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ae59452a91899def3b5f6ba866ee2a20d">Drop</a> ()</td></tr>
+<tr class="memdesc:ae59452a91899def3b5f6ba866ee2a20d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выкинуть предмет  <a href="class_item.html#ae59452a91899def3b5f6ba866ee2a20d">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae59452a91899def3b5f6ba866ee2a20d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5daaba8ecd1b9275c36d39d386b3125"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ae5daaba8ecd1b9275c36d39d386b3125">Flip</a> ()</td></tr>
+<tr class="separator:ae5daaba8ecd1b9275c36d39d386b3125"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a111f9677331803d76e3a5ed640c3405d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a111f9677331803d76e3a5ed640c3405d">ShowItem</a> ()</td></tr>
+<tr class="memdesc:a111f9677331803d76e3a5ed640c3405d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Показать предмет  <a href="class_item.html#a111f9677331803d76e3a5ed640c3405d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a111f9677331803d76e3a5ed640c3405d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1ead54dfd5058755d0d7ca45a763b36"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ae1ead54dfd5058755d0d7ca45a763b36">HideItem</a> ()</td></tr>
+<tr class="memdesc:ae1ead54dfd5058755d0d7ca45a763b36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Спрятать предмет  <a href="class_item.html#ae1ead54dfd5058755d0d7ca45a763b36">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae1ead54dfd5058755d0d7ca45a763b36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:ad08cc25e87d21d0329fcb41d0bd7ba8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_n_p_c.html">NPC</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#ad08cc25e87d21d0329fcb41d0bd7ba8e">npc</a></td></tr>
+<tr class="memdesc:ad08cc25e87d21d0329fcb41d0bd7ba8e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="class_n_p_c.html" title="Основной класс от которого наследуются &quot;живые&quot; существа">NPC</a> которому принадлежит предмет  <a href="class_item.html#ad08cc25e87d21d0329fcb41d0bd7ba8e">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad08cc25e87d21d0329fcb41d0bd7ba8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c54f77a262b1ffd78c1cd8cbed86ae0"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a8c54f77a262b1ffd78c1cd8cbed86ae0">itemName</a></td></tr>
+<tr class="memdesc:a8c54f77a262b1ffd78c1cd8cbed86ae0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Имя предмета  <a href="class_item.html#a8c54f77a262b1ffd78c1cd8cbed86ae0">Подробнее...</a><br /></td></tr>
+<tr class="separator:a8c54f77a262b1ffd78c1cd8cbed86ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7647daec6254d11d76a857a212f729c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#af7647daec6254d11d76a857a212f729c">description</a></td></tr>
+<tr class="memdesc:af7647daec6254d11d76a857a212f729c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Описание предмета  <a href="class_item.html#af7647daec6254d11d76a857a212f729c">Подробнее...</a><br /></td></tr>
+<tr class="separator:af7647daec6254d11d76a857a212f729c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceb85b6f5d0b782667f7e38949f0857e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_item_8cs.html#a3cec42505d09b83b9269bc0145e957d9">ItemTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#aceb85b6f5d0b782667f7e38949f0857e">itemType</a></td></tr>
+<tr class="memdesc:aceb85b6f5d0b782667f7e38949f0857e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Тип предмета (должен определяетс в наследуемом классе)  <a href="class_item.html#aceb85b6f5d0b782667f7e38949f0857e">Подробнее...</a><br /></td></tr>
+<tr class="separator:aceb85b6f5d0b782667f7e38949f0857e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eb4dc20f85cef4c2fb57568e447442f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_interactable.html">Interactable</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a0eb4dc20f85cef4c2fb57568e447442f">interactable</a></td></tr>
+<tr class="separator:a0eb4dc20f85cef4c2fb57568e447442f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fe88b6d59233ce70da6841f946b770a"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a7fe88b6d59233ce70da6841f946b770a">pointLight</a></td></tr>
+<tr class="memdesc:a7fe88b6d59233ce70da6841f946b770a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Источник света предмета  <a href="class_item.html#a7fe88b6d59233ce70da6841f946b770a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7fe88b6d59233ce70da6841f946b770a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a816fbb53e9a7df5924a4206afa8b9a63"><td class="memItemLeft" align="right" valign="top">Renderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a816fbb53e9a7df5924a4206afa8b9a63">item_renderer</a></td></tr>
+<tr class="memdesc:a816fbb53e9a7df5924a4206afa8b9a63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Рендер, который должен спрятаться при взятии предмета Ренден, который долж  <a href="class_item.html#a816fbb53e9a7df5924a4206afa8b9a63">Подробнее...</a><br /></td></tr>
+<tr class="separator:a816fbb53e9a7df5924a4206afa8b9a63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1dc016532d298122f97471dc66c2c81"><td class="memItemLeft" align="right" valign="top">Sprite&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#af1dc016532d298122f97471dc66c2c81">icon</a></td></tr>
+<tr class="memdesc:af1dc016532d298122f97471dc66c2c81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Иконка предмета в UI  <a href="class_item.html#af1dc016532d298122f97471dc66c2c81">Подробнее...</a><br /></td></tr>
+<tr class="separator:af1dc016532d298122f97471dc66c2c81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a371a0aed2415a1b8adf020707a38ab76"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a371a0aed2415a1b8adf020707a38ab76">price</a></td></tr>
+<tr class="memdesc:a371a0aed2415a1b8adf020707a38ab76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Цена предмета  <a href="class_item.html#a371a0aed2415a1b8adf020707a38ab76">Подробнее...</a><br /></td></tr>
+<tr class="separator:a371a0aed2415a1b8adf020707a38ab76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Защищенные члены</h2></td></tr>
+<tr class="memitem:a1fea2f211a606fb646cecb053f5ca600"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a1fea2f211a606fb646cecb053f5ca600">RaiseItemSoldEvent</a> ()</td></tr>
+<tr class="memdesc:a1fea2f211a606fb646cecb053f5ca600"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вызов itemSold  <a href="class_item.html#a1fea2f211a606fb646cecb053f5ca600">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1fea2f211a606fb646cecb053f5ca600"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd329fe798e9166e4439f58c9d765b1b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#abd329fe798e9166e4439f58c9d765b1b">Awake</a> ()</td></tr>
+<tr class="separator:abd329fe798e9166e4439f58c9d765b1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d8b4656d1f9c240d7536c7575e3db18"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a5d8b4656d1f9c240d7536c7575e3db18">HighLight</a> (bool light)</td></tr>
+<tr class="memdesc:a5d8b4656d1f9c240d7536c7575e3db18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Подсветить предмет  <a href="class_item.html#a5d8b4656d1f9c240d7536c7575e3db18">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5d8b4656d1f9c240d7536c7575e3db18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe397b8f5341f2f7bdf500bad9b3cd1a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#afe397b8f5341f2f7bdf500bad9b3cd1a">Light</a> (bool light)</td></tr>
+<tr class="memdesc:afe397b8f5341f2f7bdf500bad9b3cd1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Выключить/Включить источник света предмета  <a href="class_item.html#afe397b8f5341f2f7bdf500bad9b3cd1a">Подробнее...</a><br /></td></tr>
+<tr class="separator:afe397b8f5341f2f7bdf500bad9b3cd1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8480b8fd17f694bc42af3a5ae51209"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#afb8480b8fd17f694bc42af3a5ae51209">SetParent</a> (<a class="el" href="class_n_p_c.html">NPC</a> parent, Transform transformParent)</td></tr>
+<tr class="memdesc:afb8480b8fd17f694bc42af3a5ae51209"><td class="mdescLeft">&#160;</td><td class="mdescRight">Присвоить родителя  <a href="class_item.html#afb8480b8fd17f694bc42af3a5ae51209">Подробнее...</a><br /></td></tr>
+<tr class="separator:afb8480b8fd17f694bc42af3a5ae51209"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
+События</h2></td></tr>
+<tr class="memitem:a85fbf872fc5a5e3cf80f80a8be95f151"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a85fbf872fc5a5e3cf80f80a8be95f151">itemSold</a></td></tr>
+<tr class="memdesc:a85fbf872fc5a5e3cf80f80a8be95f151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Событие вызываемое при взятии/продаже предмета  <a href="class_item.html#a85fbf872fc5a5e3cf80f80a8be95f151">Подробнее...</a><br /></td></tr>
+<tr class="separator:a85fbf872fc5a5e3cf80f80a8be95f151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Закрытые члены</h2></td></tr>
+<tr class="memitem:a1dda1a9720e43043d4061c0c72f5c19c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a1dda1a9720e43043d4061c0c72f5c19c">Sold</a> (object sender, EventArgs e)</td></tr>
+<tr class="memdesc:a1dda1a9720e43043d4061c0c72f5c19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вызывает при первом "поднятии" предмета  <a href="class_item.html#a1dda1a9720e43043d4061c0c72f5c19c">Подробнее...</a><br /></td></tr>
+<tr class="separator:a1dda1a9720e43043d4061c0c72f5c19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a9cd2708b003a9f08e0354d11ebf7594a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_name___plate.html">Name_Plate</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item.html#a9cd2708b003a9f08e0354d11ebf7594a">plate</a></td></tr>
+<tr class="memdesc:a9cd2708b003a9f08e0354d11ebf7594a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Табличка появляющаяся при наведении игрока на предмет  <a href="class_item.html#a9cd2708b003a9f08e0354d11ebf7594a">Подробнее...</a><br /></td></tr>
+<tr class="separator:a9cd2708b003a9f08e0354d11ebf7594a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Класс от которого наследуются предметы </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="abd329fe798e9166e4439f58c9d765b1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd329fe798e9166e4439f58c9d765b1b">&#9670;&nbsp;</a></span>Awake()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.Awake </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Переопределяется в <a class="el" href="class_useable_item.html#ac36982e44d1d94fd96ac4053a410a825">UseableItem</a>, <a class="el" href="class_weapon_item.html#ad928a34a8de356cf28e0fbbba21e7ee0">WeaponItem</a>, <a class="el" href="class_bomb___item.html#af2eb6a8a14a0b97598b290250692e43c">Bomb_Item</a>, <a class="el" href="class_passive_item.html#af823a886cad1cde60a0c7c634ed007c3">PassiveItem</a>, <a class="el" href="class_blessed___shield.html#a26544af92238d78448ce2f108f425488">Blessed_Shield</a> и <a class="el" href="class_slow_time.html#ae4448631e8c0a22f5618e558cf2d30d5">SlowTime</a>.</p>
+
+</div>
+</div>
+<a id="ae59452a91899def3b5f6ba866ee2a20d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae59452a91899def3b5f6ba866ee2a20d">&#9670;&nbsp;</a></span>Drop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.Drop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выкинуть предмет </p>
+
+<p>Переопределяется в <a class="el" href="class_weapon_item.html#a2afc299d80c182776ed982d9b804555c">WeaponItem</a>.</p>
+
+</div>
+</div>
+<a id="ae5daaba8ecd1b9275c36d39d386b3125"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5daaba8ecd1b9275c36d39d386b3125">&#9670;&nbsp;</a></span>Flip()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Item.Flip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38c1e4d5e2793042bda61301962985df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38c1e4d5e2793042bda61301962985df">&#9670;&nbsp;</a></span>Give()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool Item.Give </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_n_p_c.html">NPC</a>&#160;</td>
+          <td class="paramname"><em>parent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Дать предмет <a class="el" href="class_n_p_c.html" title="Основной класс от которого наследуются &quot;живые&quot; существа">NPC</a> </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td><a class="el" href="class_n_p_c.html" title="Основной класс от которого наследуются &quot;живые&quot; существа">NPC</a> которому нужно дать предмет</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd></dd></dl>
+
+<p>Переопределяется в <a class="el" href="class_weapon_item.html#a124e2da4d7526dd9882ea601686f27f7">WeaponItem</a>, <a class="el" href="class_passive_item.html#a01a21e6acc2464ed15ea1bf821d6b87f">PassiveItem</a> и <a class="el" href="class_health_flask.html#a6c1dc9a32d88e2887857274a7d7fe355">HealthFlask</a>.</p>
+
+</div>
+</div>
+<a id="ae1ead54dfd5058755d0d7ca45a763b36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1ead54dfd5058755d0d7ca45a763b36">&#9670;&nbsp;</a></span>HideItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.HideItem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Спрятать предмет </p>
+
+</div>
+</div>
+<a id="a5d8b4656d1f9c240d7536c7575e3db18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d8b4656d1f9c240d7536c7575e3db18">&#9670;&nbsp;</a></span>HighLight()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.HighLight </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>light</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Подсветить предмет </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">light</td><td>Спрятать/Показать</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a419a693722f376c3155312399ea8bd86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a419a693722f376c3155312399ea8bd86">&#9670;&nbsp;</a></span>Interact()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Item.Interact </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Взаимодействие с предметом </p>
+
+</div>
+</div>
+<a id="afe397b8f5341f2f7bdf500bad9b3cd1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe397b8f5341f2f7bdf500bad9b3cd1a">&#9670;&nbsp;</a></span>Light()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.Light </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>light</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Выключить/Включить источник света предмета </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">light</td><td>Включить/Выключить</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1fea2f211a606fb646cecb053f5ca600"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fea2f211a606fb646cecb053f5ca600">&#9670;&nbsp;</a></span>RaiseItemSoldEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.RaiseItemSoldEvent </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Вызов itemSold </p>
+
+</div>
+</div>
+<a id="a4f58e523ccf43b91814d78638c4d2bcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f58e523ccf43b91814d78638c4d2bcc">&#9670;&nbsp;</a></span>SetItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.SetItem </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Price</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Инициализация предмета </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Price</td><td>Цена предмета</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afb8480b8fd17f694bc42af3a5ae51209"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8480b8fd17f694bc42af3a5ae51209">&#9670;&nbsp;</a></span>SetParent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.SetParent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_n_p_c.html">NPC</a>&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Transform&#160;</td>
+          <td class="paramname"><em>transformParent</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Присвоить родителя </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">parent</td><td><a class="el" href="class_n_p_c.html" title="Основной класс от которого наследуются &quot;живые&quot; существа">NPC</a> которому будет принадлежать предмет</td></tr>
+    <tr><td class="paramname">transformParent</td><td>Обьект к которому будет прикреплен предмет</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac4480931367b8f6fc9416f4dbd2b025b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4480931367b8f6fc9416f4dbd2b025b">&#9670;&nbsp;</a></span>SetUpInteraction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.SetUpInteraction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a111f9677331803d76e3a5ed640c3405d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a111f9677331803d76e3a5ed640c3405d">&#9670;&nbsp;</a></span>ShowItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Item.ShowItem </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Показать предмет </p>
+
+</div>
+</div>
+<a id="a1dda1a9720e43043d4061c0c72f5c19c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dda1a9720e43043d4061c0c72f5c19c">&#9670;&nbsp;</a></span>Sold()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Item.Sold </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Вызывает при первом "поднятии" предмета </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">sender</td><td>null</td></tr>
+    <tr><td class="paramname">e</td><td>null</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="af7647daec6254d11d76a857a212f729c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7647daec6254d11d76a857a212f729c">&#9670;&nbsp;</a></span>description</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Item.description</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Описание предмета </p>
+
+</div>
+</div>
+<a id="af1dc016532d298122f97471dc66c2c81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1dc016532d298122f97471dc66c2c81">&#9670;&nbsp;</a></span>icon</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Sprite Item.icon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Иконка предмета в UI </p>
+
+</div>
+</div>
+<a id="a0eb4dc20f85cef4c2fb57568e447442f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0eb4dc20f85cef4c2fb57568e447442f">&#9670;&nbsp;</a></span>interactable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_interactable.html">Interactable</a> Item.interactable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a816fbb53e9a7df5924a4206afa8b9a63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a816fbb53e9a7df5924a4206afa8b9a63">&#9670;&nbsp;</a></span>item_renderer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Renderer Item.item_renderer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Рендер, который должен спрятаться при взятии предмета Ренден, который долж </p>
+
+</div>
+</div>
+<a id="a8c54f77a262b1ffd78c1cd8cbed86ae0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c54f77a262b1ffd78c1cd8cbed86ae0">&#9670;&nbsp;</a></span>itemName</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string Item.itemName</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Имя предмета </p>
+
+</div>
+</div>
+<a id="aceb85b6f5d0b782667f7e38949f0857e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceb85b6f5d0b782667f7e38949f0857e">&#9670;&nbsp;</a></span>itemType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_item_8cs.html#a3cec42505d09b83b9269bc0145e957d9">ItemTypes</a> Item.itemType</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Тип предмета (должен определяетс в наследуемом классе) </p>
+
+</div>
+</div>
+<a id="ad08cc25e87d21d0329fcb41d0bd7ba8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad08cc25e87d21d0329fcb41d0bd7ba8e">&#9670;&nbsp;</a></span>npc</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_n_p_c.html">NPC</a> Item.npc</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="class_n_p_c.html" title="Основной класс от которого наследуются &quot;живые&quot; существа">NPC</a> которому принадлежит предмет </p>
+
+</div>
+</div>
+<a id="a9cd2708b003a9f08e0354d11ebf7594a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cd2708b003a9f08e0354d11ebf7594a">&#9670;&nbsp;</a></span>plate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_name___plate.html">Name_Plate</a> Item.plate</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Табличка появляющаяся при наведении игрока на предмет </p>
+
+</div>
+</div>
+<a id="a7fe88b6d59233ce70da6841f946b770a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fe88b6d59233ce70da6841f946b770a">&#9670;&nbsp;</a></span>pointLight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject Item.pointLight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Источник света предмета </p>
+
+</div>
+</div>
+<a id="a371a0aed2415a1b8adf020707a38ab76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a371a0aed2415a1b8adf020707a38ab76">&#9670;&nbsp;</a></span>price</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Item.price</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Цена предмета </p>
+
+</div>
+</div>
+<h2 class="groupheader">Cобытия</h2>
+<a id="a85fbf872fc5a5e3cf80f80a8be95f151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85fbf872fc5a5e3cf80f80a8be95f151">&#9670;&nbsp;</a></span>itemSold</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EventHandler Item.itemSold</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Событие вызываемое при взятии/продаже предмета </p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>O:/Unity Projects/MyGame/Assets/Scripts/Items/<a class="el" href="_item_8cs.html">Item.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>

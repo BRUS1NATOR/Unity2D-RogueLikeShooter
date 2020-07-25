@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a9667b5d5bea4647853b492952627ff, type: 3}
+  m_Name: Explosion_Manager
+  m_EditorClassIdentifier: 
+  dynamiteExplosion: {fileID: 3406368160097553274, guid: e10df5faaab69484bb84a7a25f758733,
+    type: 3}
+  bombExplosion: {fileID: 3406368160097553274, guid: e10df5faaab69484bb84a7a25f758733,
+    type: 3}

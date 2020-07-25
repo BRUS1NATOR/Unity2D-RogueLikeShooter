@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9cb57751b7d71f47a5208492e82e246, type: 3}
+  m_Name: Dungeoun Default
+  m_EditorClassIdentifier: 
+  environment_gen: {fileID: 11400000, guid: 275d7fa3a0a9d8a438d3387fa432f339, type: 2}
+  floortiles: {fileID: 11400000, guid: d383e0b7521deac4eb8c79261b100e27, type: 2}
+  walltiles:
+  - {fileID: 1712330803544915133, guid: 8ca4343f2ed2e154094146e971bcbb12, type: 3}
+  - {fileID: 1712330803544915133, guid: e9eeb4e35c275a842bd8b0050ca9da27, type: 3}
+  downWallTiles:
+  - {fileID: 1621188279711152, guid: 28e45cc304dd96c4f96471b95db28e99, type: 3}
+  leftWallTiles:
+  - {fileID: 3974920265232373003, guid: 8bc93f747e3444e4ba21a0bddd4e01fd, type: 3}
+  leftLongWallTiles:
+  - {fileID: 5197775562375408957, guid: 7959153c063d64e47bd4053cbdaf57ca, type: 3}
+  rightWallTiles:
+  - {fileID: 0}
+  rightLongWallTiles:
+  - {fileID: 0}
+  pitTilesUp:
+  - {fileID: 1840628432732412, guid: 1d012975b0932094c920ccde195dd3f6, type: 3}
+  pitTilesUpLeft:
+  - {fileID: 1840628432732412, guid: 078fb48752c5ceb4dbc8c51e85101291, type: 3}
+  pitTilesUpRight:
+  - {fileID: 1840628432732412, guid: 86a7cce69a1c83948b99532120a80aa5, type: 3}
+  waterTiles:
+  - {fileID: 1840628432732412, guid: dcb4ac99f02cf24408c6af819e67e862, type: 3}
+  waterTilesDown:
+  - {fileID: 1840628432732412, guid: e40a5cbec682d2941a2490591505cdde, type: 3}
+  waterTilesRight:
+  - {fileID: 1840628432732412, guid: 99e48f6710c0c564089e59c049c51169, type: 3}
+  waterTilesLeft:
+  - {fileID: 1840628432732412, guid: ccafe2230bdcd884096ad57dfc37c9bf, type: 3}
+  waterTilesDownLeft:
+  - {fileID: 1840628432732412, guid: 3fba1e29aa57dc24a8e1af97f9082edf, type: 3}
+  waterTilesDownRight:
+  - {fileID: 1840628432732412, guid: dce6b7d65d1779b409c67778bba42603, type: 3}
+  next_level_door: {fileID: 1131285714070412724, guid: 60889866899acfa42a2265206398dcdd,
+    type: 3}
+  door_upper: {fileID: 1131285714070412724, guid: 3a402a7542907634e995f12a3727adf0,
+    type: 3}
+  door_right: {fileID: 1131285714070412724, guid: ed4f19a9ab9fa7746843919587ff57b7,
+    type: 3}
+  door_left: {fileID: 1131285714070412724, guid: 9dec33f4d30608c46a5de43e00a26ff9,
+    type: 3}
+  door_bottom: {fileID: 1131285714070412724, guid: 3d4bb16849b949f46af7ac5de7daf42d,
+    type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06eea0712dc4b784abb5ff1a4f954e75, type: 3}
+  m_Name: RangeEnemies
+  m_EditorClassIdentifier: 
+  enemies:
+  - enemy: {fileID: 5832263296915253553, guid: 9892f2ad093260e46a808a0c5f6ddef1, type: 3}
+    chance: 1
+    level: 1
+    targetLevel: 1
+  - enemy: {fileID: 5832263296915253553, guid: 5180c65a1b911e94d9a77900ff984819, type: 3}
+    chance: 1
+    level: 2
+    targetLevel: 2

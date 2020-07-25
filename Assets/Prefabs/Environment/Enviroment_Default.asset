@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54f3f5fa0308eb4c884f80728d09522, type: 3}
+  m_Name: Enviroment_Default
+  m_EditorClassIdentifier: 
+  icons: {fileID: 11400000, guid: 598007133f9aeb741bba61bae487d944, type: 2}
+  paintColor: {r: 0.6981132, g: 0.6157885, b: 0.6157885, a: 1}
+  teleport: {fileID: 5676357696981687558, guid: 81e0ad2409b740e4fb19fd7ef75ae10f,
+    type: 3}
+  shopToLeft: {fileID: 3698448950110576840, guid: c7fb55cba1396854da43b0645aa76724,
+    type: 3}
+  shopToRight: {fileID: 3698448950110576840, guid: 30957080a0347d04f9c5c8c07e3ad286,
+    type: 3}
+  onWallEnvironment:
+    wideWallObjects:
+    - {fileID: 4208999904888383109, guid: 6af6a96d6ed86e8449a61346e86b4f91, type: 3}
+    - {fileID: 4208999904888383109, guid: 4f94b6ef6794517499d4ce09306fc059, type: 3}
+    - {fileID: 4208999904888383109, guid: 30ce260be9c69fc48ab315812bf39735, type: 3}
+    wallObjects:
+    - {fileID: 4208999904888383109, guid: 87a78182e234bc440b4851cd6091f0d3, type: 3}
+    - {fileID: 4208999904888383109, guid: ea1121c1dd555e240a5de63954978358, type: 3}
+    - {fileID: 4208999904888383109, guid: b90e86f9ee022ef40b67c1ea86482069, type: 3}
+    - {fileID: 4208999904888383109, guid: e9208f189adfe1340bc5c591330c872f, type: 3}
+    - {fileID: 1702724263289612626, guid: 3d6df4fc11d8d284f8250bdc0faa26d8, type: 3}
+    - {fileID: 3115683996589679392, guid: aae7768d8a63c444a8275e7187aa0970, type: 3}
+  torch: {fileID: 3013958389942635066, guid: d108d0f62f176694cb487179b2091cc0, type: 3}
+  wallModificators:
+  - {fileID: 6724195059587145756, guid: 16f1623986a0e17478b937f08e8b3404, type: 3}
+  - {fileID: 6724195059587145756, guid: 57b27dc82276b0f45b48db2b82bf540f, type: 3}
+  - {fileID: 6724195059587145756, guid: 9f7e7df1d5b7b7d4d9d642562805647d, type: 3}
+  - {fileID: 6724195059587145756, guid: 912463f0745f45147b3fa4f06562452e, type: 3}
+  - {fileID: 6724195059587145756, guid: 1cc87d30117330e49bc6d7e04fc6d90d, type: 3}
+  - {fileID: 6724195059587145756, guid: 90a86eed89e106747baf3a72958d1529, type: 3}
+  - {fileID: 6724195059587145756, guid: b599b250c754ea0499d0fa0f9bb56486, type: 3}
+  - {fileID: 6016194965853787604, guid: e1530b13f62e2b1429e18b63610fda03, type: 3}
+  chest: {fileID: 2280022443950915790, guid: 9b3af9c55d4718948bc547b2d7447a1d, type: 3}
+  maxUnderWallObjects: 3
+  underWallsObjects:
+  - {fileID: 7440329499299867836, guid: f5eb7aec838af5745a0660937e0b6214, type: 3}
+  - {fileID: 1428320048784599761, guid: 59416cff33e446c46b00e8a9df4c6b52, type: 3}
+  - {fileID: 6217779543686525725, guid: 7e36ed6234e61034e89a2ef0f5a2603c, type: 3}
+  maxSideWallObjects: 3
+  sideWallObjects:
+  - {fileID: 7440329499299867836, guid: f5eb7aec838af5745a0660937e0b6214, type: 3}
+  - {fileID: 2834862316651987237, guid: c949f37cff2c2334c8d0b49d8d822d38, type: 3}
+  table: {fileID: 9119132810546136406, guid: 3996ea815d319af4dae183e2c85bcbce, type: 3}
+  exit: {fileID: 1131285714070412724, guid: 60889866899acfa42a2265206398dcdd, type: 3}

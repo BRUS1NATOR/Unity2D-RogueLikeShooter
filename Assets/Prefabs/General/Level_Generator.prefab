@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3580058709981930243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3580058709981930242}
+  - component: {fileID: 3580058709614691870}
+  m_Layer: 0
+  m_Name: Level_Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3580058709981930242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580058709981930243}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 256, y: 256, z: -3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3580058709614691870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3580058709981930243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: febed15d4ce2c54428d01ceb92308837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shopsAmount: 0
+  secretAmount: 1
+  tiles: {fileID: 11400000, guid: 00cecb8c6121f0340b98e9efa2d28d8b, type: 2}
+  createArchitecture: 1
+  arch: {fileID: 11400000, guid: fa356ed638051534495f5583bffe5adf, type: 2}
+  branchChance: 0.75
+  chanceUp: 0.4
+  chanceDown: 0.2
+  chanceRight: 0.2
+  chanceLeft: 0.2
+  RoomMinWidth: 10
+  RoomMaxWidth: 20
+  RoomMinHeight: 20
+  RoomMaxHeight: 30
+  minCorridorLength: 4
+  navigationPlane: {fileID: 0}
+  loadingText: {fileID: 0}

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f45dd0a380478e44b08f77dbb2d9f1a, type: 3}
+  m_Name: Rare_Modificators
+  m_EditorClassIdentifier: 
+  items:
+  - item: {fileID: 7503691928710047659, guid: 0b6ee3d8a8a042542a01998c9f815236, type: 3}
+    chance: 0.5
+    prices: 2800000032000000

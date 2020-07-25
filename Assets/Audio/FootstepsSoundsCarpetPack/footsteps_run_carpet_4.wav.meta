@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: a68dc210706839642b8c7455489271b4
+labels:
+- Audio
+- Sound
+- FX
+- Footsteps
+- Carpet
+- Pack
+- Wav
+- Loop
+- Run
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 6
+  defaultSettings:
+    loadType: 1
+    sampleRateSetting: 0
+    sampleRateOverride: 0
+    compressionFormat: 0
+    quality: 1
+    conversionMode: 0
+  platformSettingOverrides: {}
+  forceToMono: 0
+  normalize: 1
+  preloadAudioData: 1
+  loadInBackground: 0
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

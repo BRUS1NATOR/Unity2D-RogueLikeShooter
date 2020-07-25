@@ -1,0 +1,763 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Game Documentation: Класс ItemManager</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="ShopIcon.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Game Documentation
+   &#160;<span id="projectnumber">verison 1.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.16 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-static-methods">Открытые статические члены</a> &#124;
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="#pub-static-attribs">Статические открытые данные</a> &#124;
+<a href="#pri-methods">Закрытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="class_item_manager-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс ItemManager</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Объект хранящий всевозможные предметы  
+ <a href="class_item_manager.html#details">Подробнее...</a></p>
+<div class="dynheader">
+Граф наследования:ItemManager:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_item_manager.png" alt=""/>
+ </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ab4bc98b0f40eb83251189535219603f6"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#ab4bc98b0f40eb83251189535219603f6">GetItemsDb</a> (<a class="el" href="_item_manager_8cs.html#a564a3519311087d4fa18eec4b204e8c2">ItemRarity</a> rarity)</td></tr>
+<tr class="memdesc:ab4bc98b0f40eb83251189535219603f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация синглтона  <a href="class_item_manager.html#ab4bc98b0f40eb83251189535219603f6">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab4bc98b0f40eb83251189535219603f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04162b9d109c5c5d14808729ad477c77"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a04162b9d109c5c5d14808729ad477c77">GetOverAllChance</a> (List&lt; <a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> &gt; itemsDb)</td></tr>
+<tr class="separator:a04162b9d109c5c5d14808729ad477c77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5aa7b9d41b95043ae71183a90f5d0f"><td class="memItemLeft" align="right" valign="top">float[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a5b5aa7b9d41b95043ae71183a90f5d0f">GetChances</a> (<a class="el" href="_item_manager_8cs.html#a564a3519311087d4fa18eec4b204e8c2">ItemRarity</a> rarity, int phase)</td></tr>
+<tr class="separator:a5b5aa7b9d41b95043ae71183a90f5d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7770a8790d1d0f88d13bc0e881a29630"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a7770a8790d1d0f88d13bc0e881a29630">CreateItem</a> (GameObject item, Vector2 position, int price)</td></tr>
+<tr class="separator:a7770a8790d1d0f88d13bc0e881a29630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa697b61da5f879d2e97e605686a41bd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#aa697b61da5f879d2e97e605686a41bd9">CreateItem</a> (GameObject item, Vector2 position)</td></tr>
+<tr class="separator:aa697b61da5f879d2e97e605686a41bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb20d2c4e1040aed832ee7b3f769b1f0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#aeb20d2c4e1040aed832ee7b3f769b1f0">CalculateOverallChances</a> (int phase)</td></tr>
+<tr class="separator:aeb20d2c4e1040aed832ee7b3f769b1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Открытые статические члены</h2></td></tr>
+<tr class="memitem:a5156e2e1163f75ff3925903e29d33580"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a5156e2e1163f75ff3925903e29d33580">Initialize</a> ()</td></tr>
+<tr class="memdesc:a5156e2e1163f75ff3925903e29d33580"><td class="mdescLeft">&#160;</td><td class="mdescRight">Инициализация синглтона  <a href="class_item_manager.html#a5156e2e1163f75ff3925903e29d33580">Подробнее...</a><br /></td></tr>
+<tr class="separator:a5156e2e1163f75ff3925903e29d33580"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bf2edc30fbc0cc9a0900fe125652d55"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a0bf2edc30fbc0cc9a0900fe125652d55">GetItem</a> (List&lt; <a class="el" href="_item_manager_8cs.html#a564a3519311087d4fa18eec4b204e8c2">ItemRarity</a> &gt; itemsType, bool withPrice, bool withLight)</td></tr>
+<tr class="separator:a0bf2edc30fbc0cc9a0900fe125652d55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:a89e160b4e49de5c365e5bb5d37d55ea8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a89e160b4e49de5c365e5bb5d37d55ea8">phaseNow</a> = 0</td></tr>
+<tr class="memdesc:a89e160b4e49de5c365e5bb5d37d55ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Текущая фаза  <a href="class_item_manager.html#a89e160b4e49de5c365e5bb5d37d55ea8">Подробнее...</a><br /></td></tr>
+<tr class="separator:a89e160b4e49de5c365e5bb5d37d55ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54d1b7d9c2b2a2d93f4752996fc669ee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a54d1b7d9c2b2a2d93f4752996fc669ee">phaseMax</a> = 2</td></tr>
+<tr class="memdesc:a54d1b7d9c2b2a2d93f4752996fc669ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Максимальная фаза  <a href="class_item_manager.html#a54d1b7d9c2b2a2d93f4752996fc669ee">Подробнее...</a><br /></td></tr>
+<tr class="separator:a54d1b7d9c2b2a2d93f4752996fc669ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47dbb870abc7e7b3fb85fd74e88c1705"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a47dbb870abc7e7b3fb85fd74e88c1705">itemLight</a></td></tr>
+<tr class="separator:a47dbb870abc7e7b3fb85fd74e88c1705"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdafdcbca6c6ea281206263bea8c20ee"><td class="memItemLeft" align="right" valign="top">Material&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#afdafdcbca6c6ea281206263bea8c20ee">highLightMaterial</a></td></tr>
+<tr class="separator:afdafdcbca6c6ea281206263bea8c20ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f92b4de28481e1244432f7bda82b13d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a7f92b4de28481e1244432f7bda82b13d">nothing</a></td></tr>
+<tr class="memdesc:a7f92b4de28481e1244432f7bda82b13d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ничего  <a href="class_item_manager.html#a7f92b4de28481e1244432f7bda82b13d">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7f92b4de28481e1244432f7bda82b13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7a15f729609b2e43e240a42cab105be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#ab7a15f729609b2e43e240a42cab105be">ammoItems</a></td></tr>
+<tr class="memdesc:ab7a15f729609b2e43e240a42cab105be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Предметы содержащие патроны  <a href="class_item_manager.html#ab7a15f729609b2e43e240a42cab105be">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab7a15f729609b2e43e240a42cab105be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc467d00929d45799068497774067b5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#abc467d00929d45799068497774067b5f">healItems</a></td></tr>
+<tr class="memdesc:abc467d00929d45799068497774067b5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Лечащие предметы  <a href="class_item_manager.html#abc467d00929d45799068497774067b5f">Подробнее...</a><br /></td></tr>
+<tr class="separator:abc467d00929d45799068497774067b5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27fe471e5ef1b36e8215309ae0d91568"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a27fe471e5ef1b36e8215309ae0d91568">common_boostItems</a></td></tr>
+<tr class="memdesc:a27fe471e5ef1b36e8215309ae0d91568"><td class="mdescLeft">&#160;</td><td class="mdescRight">Бусты  <a href="class_item_manager.html#a27fe471e5ef1b36e8215309ae0d91568">Подробнее...</a><br /></td></tr>
+<tr class="separator:a27fe471e5ef1b36e8215309ae0d91568"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaad02abc3922745adecca2dbb8acd37a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#aaad02abc3922745adecca2dbb8acd37a">rare_BoostItems</a></td></tr>
+<tr class="memdesc:aaad02abc3922745adecca2dbb8acd37a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Редкие бусты  <a href="class_item_manager.html#aaad02abc3922745adecca2dbb8acd37a">Подробнее...</a><br /></td></tr>
+<tr class="separator:aaad02abc3922745adecca2dbb8acd37a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a651711a505e66508457c62ac5c795c53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a651711a505e66508457c62ac5c795c53">common_ModificatorItems</a></td></tr>
+<tr class="memdesc:a651711a505e66508457c62ac5c795c53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обычные модификаторы  <a href="class_item_manager.html#a651711a505e66508457c62ac5c795c53">Подробнее...</a><br /></td></tr>
+<tr class="separator:a651711a505e66508457c62ac5c795c53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae42f58113186a2798ce835968e51e372"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#ae42f58113186a2798ce835968e51e372">rare_ModificatorItems</a></td></tr>
+<tr class="memdesc:ae42f58113186a2798ce835968e51e372"><td class="mdescLeft">&#160;</td><td class="mdescRight">Редкие модификаторы  <a href="class_item_manager.html#ae42f58113186a2798ce835968e51e372">Подробнее...</a><br /></td></tr>
+<tr class="separator:ae42f58113186a2798ce835968e51e372"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41cf5efdbb39c3cf45a9b06f6b10db2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a41cf5efdbb39c3cf45a9b06f6b10db2b">common_Items</a></td></tr>
+<tr class="memdesc:a41cf5efdbb39c3cf45a9b06f6b10db2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обычные предметы  <a href="class_item_manager.html#a41cf5efdbb39c3cf45a9b06f6b10db2b">Подробнее...</a><br /></td></tr>
+<tr class="separator:a41cf5efdbb39c3cf45a9b06f6b10db2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83abe1873abcefe4898d626e931a6b92"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a83abe1873abcefe4898d626e931a6b92">rare_Items</a></td></tr>
+<tr class="memdesc:a83abe1873abcefe4898d626e931a6b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Редкие предметы  <a href="class_item_manager.html#a83abe1873abcefe4898d626e931a6b92">Подробнее...</a><br /></td></tr>
+<tr class="separator:a83abe1873abcefe4898d626e931a6b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4240b8bc6ec5ce8d832c4966915d1967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a4240b8bc6ec5ce8d832c4966915d1967">legendary_Items</a></td></tr>
+<tr class="memdesc:a4240b8bc6ec5ce8d832c4966915d1967"><td class="mdescLeft">&#160;</td><td class="mdescRight">Легендарные предметы  <a href="class_item_manager.html#a4240b8bc6ec5ce8d832c4966915d1967">Подробнее...</a><br /></td></tr>
+<tr class="separator:a4240b8bc6ec5ce8d832c4966915d1967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e4328769645156be131e6896fa2560"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#ab4e4328769645156be131e6896fa2560">common_Weapons</a></td></tr>
+<tr class="memdesc:ab4e4328769645156be131e6896fa2560"><td class="mdescLeft">&#160;</td><td class="mdescRight">Обычное оружие  <a href="class_item_manager.html#ab4e4328769645156be131e6896fa2560">Подробнее...</a><br /></td></tr>
+<tr class="separator:ab4e4328769645156be131e6896fa2560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad93ec875e60be56ca8a7f78572360b12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#ad93ec875e60be56ca8a7f78572360b12">rare_Weapons</a></td></tr>
+<tr class="memdesc:ad93ec875e60be56ca8a7f78572360b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Редкое оружие  <a href="class_item_manager.html#ad93ec875e60be56ca8a7f78572360b12">Подробнее...</a><br /></td></tr>
+<tr class="separator:ad93ec875e60be56ca8a7f78572360b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a115e8c88888427b8764cf8e65cf0de4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a115e8c88888427b8764cf8e65cf0de4f">legendary_Weapons</a></td></tr>
+<tr class="memdesc:a115e8c88888427b8764cf8e65cf0de4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Легендарное оружие  <a href="class_item_manager.html#a115e8c88888427b8764cf8e65cf0de4f">Подробнее...</a><br /></td></tr>
+<tr class="separator:a115e8c88888427b8764cf8e65cf0de4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Статические открытые данные</h2></td></tr>
+<tr class="memitem:a7e15c99752dacf87d502c8598a1e73c0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_item_manager.html">ItemManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a7e15c99752dacf87d502c8598a1e73c0">instance</a></td></tr>
+<tr class="memdesc:a7e15c99752dacf87d502c8598a1e73c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Синглтон  <a href="class_item_manager.html#a7e15c99752dacf87d502c8598a1e73c0">Подробнее...</a><br /></td></tr>
+<tr class="separator:a7e15c99752dacf87d502c8598a1e73c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Закрытые члены</h2></td></tr>
+<tr class="memitem:ac6fdcb38800a450c24e81b12e019c69f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#ac6fdcb38800a450c24e81b12e019c69f">GetRandomItem</a> (List&lt; <a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> &gt; itemsDb, bool withPrice)</td></tr>
+<tr class="separator:ac6fdcb38800a450c24e81b12e019c69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:a61bee38b161ecdf0f7a5a9ca9eebd6f2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_item_manager.html#a61bee38b161ecdf0f7a5a9ca9eebd6f2">AllChance</a></td></tr>
+<tr class="memdesc:a61bee38b161ecdf0f7a5a9ca9eebd6f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Сумма всех шансов  <a href="class_item_manager.html#a61bee38b161ecdf0f7a5a9ca9eebd6f2">Подробнее...</a><br /></td></tr>
+<tr class="separator:a61bee38b161ecdf0f7a5a9ca9eebd6f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
+<div class="textblock"><p>Объект хранящий всевозможные предметы </p>
+</div><h2 class="groupheader">Методы</h2>
+<a id="aeb20d2c4e1040aed832ee7b3f769b1f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb20d2c4e1040aed832ee7b3f769b1f0">&#9670;&nbsp;</a></span>CalculateOverallChances()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ItemManager.CalculateOverallChances </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>phase</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa697b61da5f879d2e97e605686a41bd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa697b61da5f879d2e97e605686a41bd9">&#9670;&nbsp;</a></span>CreateItem() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ItemManager.CreateItem </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7770a8790d1d0f88d13bc0e881a29630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7770a8790d1d0f88d13bc0e881a29630">&#9670;&nbsp;</a></span>CreateItem() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ItemManager.CreateItem </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector2&#160;</td>
+          <td class="paramname"><em>position</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>price</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5b5aa7b9d41b95043ae71183a90f5d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5aa7b9d41b95043ae71183a90f5d0f">&#9670;&nbsp;</a></span>GetChances()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float [] ItemManager.GetChances </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_item_manager_8cs.html#a564a3519311087d4fa18eec4b204e8c2">ItemRarity</a>&#160;</td>
+          <td class="paramname"><em>rarity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>phase</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0bf2edc30fbc0cc9a0900fe125652d55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bf2edc30fbc0cc9a0900fe125652d55">&#9670;&nbsp;</a></span>GetItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static GameObject ItemManager.GetItem </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="_item_manager_8cs.html#a564a3519311087d4fa18eec4b204e8c2">ItemRarity</a> &gt;&#160;</td>
+          <td class="paramname"><em>itemsType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withPrice</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withLight</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4bc98b0f40eb83251189535219603f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4bc98b0f40eb83251189535219603f6">&#9670;&nbsp;</a></span>GetItemsDb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a>&gt; ItemManager.GetItemsDb </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="_item_manager_8cs.html#a564a3519311087d4fa18eec4b204e8c2">ItemRarity</a>&#160;</td>
+          <td class="paramname"><em>rarity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Инициализация синглтона </p>
+
+</div>
+</div>
+<a id="a04162b9d109c5c5d14808729ad477c77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04162b9d109c5c5d14808729ad477c77">&#9670;&nbsp;</a></span>GetOverAllChance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ItemManager.GetOverAllChance </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> &gt;&#160;</td>
+          <td class="paramname"><em>itemsDb</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac6fdcb38800a450c24e81b12e019c69f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6fdcb38800a450c24e81b12e019c69f">&#9670;&nbsp;</a></span>GetRandomItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject ItemManager.GetRandomItem </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> &gt;&#160;</td>
+          <td class="paramname"><em>itemsDb</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>withPrice</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5156e2e1163f75ff3925903e29d33580"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5156e2e1163f75ff3925903e29d33580">&#9670;&nbsp;</a></span>Initialize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void ItemManager.Initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Инициализация синглтона </p>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="a61bee38b161ecdf0f7a5a9ca9eebd6f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61bee38b161ecdf0f7a5a9ca9eebd6f2">&#9670;&nbsp;</a></span>AllChance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float ItemManager.AllChance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Сумма всех шансов </p>
+
+</div>
+</div>
+<a id="ab7a15f729609b2e43e240a42cab105be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7a15f729609b2e43e240a42cab105be">&#9670;&nbsp;</a></span>ammoItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.ammoItems</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Предметы содержащие патроны </p>
+
+</div>
+</div>
+<a id="a27fe471e5ef1b36e8215309ae0d91568"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27fe471e5ef1b36e8215309ae0d91568">&#9670;&nbsp;</a></span>common_boostItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.common_boostItems</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Бусты </p>
+
+</div>
+</div>
+<a id="a41cf5efdbb39c3cf45a9b06f6b10db2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41cf5efdbb39c3cf45a9b06f6b10db2b">&#9670;&nbsp;</a></span>common_Items</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.common_Items</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Обычные предметы </p>
+
+</div>
+</div>
+<a id="a651711a505e66508457c62ac5c795c53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a651711a505e66508457c62ac5c795c53">&#9670;&nbsp;</a></span>common_ModificatorItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.common_ModificatorItems</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Обычные модификаторы </p>
+
+</div>
+</div>
+<a id="ab4e4328769645156be131e6896fa2560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e4328769645156be131e6896fa2560">&#9670;&nbsp;</a></span>common_Weapons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.common_Weapons</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Обычное оружие </p>
+
+</div>
+</div>
+<a id="abc467d00929d45799068497774067b5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc467d00929d45799068497774067b5f">&#9670;&nbsp;</a></span>healItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.healItems</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Лечащие предметы </p>
+
+</div>
+</div>
+<a id="afdafdcbca6c6ea281206263bea8c20ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdafdcbca6c6ea281206263bea8c20ee">&#9670;&nbsp;</a></span>highLightMaterial</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Material ItemManager.highLightMaterial</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7e15c99752dacf87d502c8598a1e73c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e15c99752dacf87d502c8598a1e73c0">&#9670;&nbsp;</a></span>instance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_item_manager.html">ItemManager</a> ItemManager.instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Синглтон </p>
+
+</div>
+</div>
+<a id="a47dbb870abc7e7b3fb85fd74e88c1705"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47dbb870abc7e7b3fb85fd74e88c1705">&#9670;&nbsp;</a></span>itemLight</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject ItemManager.itemLight</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4240b8bc6ec5ce8d832c4966915d1967"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4240b8bc6ec5ce8d832c4966915d1967">&#9670;&nbsp;</a></span>legendary_Items</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.legendary_Items</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Легендарные предметы </p>
+
+</div>
+</div>
+<a id="a115e8c88888427b8764cf8e65cf0de4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a115e8c88888427b8764cf8e65cf0de4f">&#9670;&nbsp;</a></span>legendary_Weapons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.legendary_Weapons</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Легендарное оружие </p>
+
+</div>
+</div>
+<a id="a7f92b4de28481e1244432f7bda82b13d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f92b4de28481e1244432f7bda82b13d">&#9670;&nbsp;</a></span>nothing</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.nothing</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ничего </p>
+
+</div>
+</div>
+<a id="a54d1b7d9c2b2a2d93f4752996fc669ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54d1b7d9c2b2a2d93f4752996fc669ee">&#9670;&nbsp;</a></span>phaseMax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ItemManager.phaseMax = 2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Максимальная фаза </p>
+
+</div>
+</div>
+<a id="a89e160b4e49de5c365e5bb5d37d55ea8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89e160b4e49de5c365e5bb5d37d55ea8">&#9670;&nbsp;</a></span>phaseNow</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ItemManager.phaseNow = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Текущая фаза </p>
+
+</div>
+</div>
+<a id="aaad02abc3922745adecca2dbb8acd37a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaad02abc3922745adecca2dbb8acd37a">&#9670;&nbsp;</a></span>rare_BoostItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.rare_BoostItems</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Редкие бусты </p>
+
+</div>
+</div>
+<a id="a83abe1873abcefe4898d626e931a6b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83abe1873abcefe4898d626e931a6b92">&#9670;&nbsp;</a></span>rare_Items</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.rare_Items</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Редкие предметы </p>
+
+</div>
+</div>
+<a id="ae42f58113186a2798ce835968e51e372"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae42f58113186a2798ce835968e51e372">&#9670;&nbsp;</a></span>rare_ModificatorItems</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.rare_ModificatorItems</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Редкие модификаторы </p>
+
+</div>
+</div>
+<a id="ad93ec875e60be56ca8a7f78572360b12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad93ec875e60be56ca8a7f78572360b12">&#9670;&nbsp;</a></span>rare_Weapons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_items_db_struct.html">ItemsDbStruct</a> ItemManager.rare_Weapons</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Редкое оружие </p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>My-Game/Assets/Scripts/Items/ItemManager/<a class="el" href="_item_manager_8cs.html">ItemManager.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>

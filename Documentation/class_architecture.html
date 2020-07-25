@@ -1,0 +1,545 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.16"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Класс Architecture</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="ShopIcon.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   &#160;<span id="projectnumber">1.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.16 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Открытые типы</a> &#124;
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="#pro-attribs">Защищенные данные</a> &#124;
+<a href="class_architecture-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Architecture<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+Граф наследования:Architecture:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_architecture.png" usemap="#Architecture_map" alt=""/>
+  <map id="Architecture_map" name="Architecture_map">
+<area href="class_columns.html" alt="Columns" shape="rect" coords="0,112,106,136"/>
+<area href="class_corners.html" alt="Corners" shape="rect" coords="116,112,222,136"/>
+<area href="class_cut_corners.html" alt="CutCorners" shape="rect" coords="232,112,338,136"/>
+<area href="class_cuts.html" alt="Cuts" shape="rect" coords="348,112,454,136"/>
+<area href="class_pools.html" alt="Pools" shape="rect" coords="464,112,570,136"/>
+<area href="class_small_rooms.html" alt="SmallRooms" shape="rect" coords="580,112,686,136"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Открытые типы</h2></td></tr>
+<tr class="memitem:ac83037dcd23f944af214f9af2fa3e381"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381">direction</a> { <br />
+&#160;&#160;<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381a258f49887ef8d14ac268c92b02503aaa">direction.Up</a>, 
+<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381a08a38277b0309070706f6652eeae9a53">direction.Down</a>, 
+<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381a92b09c7c48c520c3c55e497875da437c">direction.Right</a>, 
+<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381a945d5e233cf7d6240f6b783b36a374ff">direction.Left</a>, 
+<br />
+&#160;&#160;<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381a18f1e5e66255e9d07ec2944fec962090">direction.DownRight</a>, 
+<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381acd7f4772075da1452f8cd3648265b2c1">direction.DownLeft</a>, 
+<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381aee94ab0297ae02df64791255d0a3551e">direction.UpRight</a>, 
+<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381a2b6ba04836dfad0c42bae644fcfaf890">direction.UpLeft</a>, 
+<br />
+&#160;&#160;<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381a9b6d3000134648fc9f1e71094ae0847d">direction.Inside</a>, 
+<a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381a6adf97f83acf6453d4a6a4b1070f3754">direction.None</a>
+<br />
+ }</td></tr>
+<tr class="separator:ac83037dcd23f944af214f9af2fa3e381"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:a5d448a0db7a257a782a68a7d1737ee0c"><td class="memItemLeft" align="right" valign="top">abstract void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#a5d448a0db7a257a782a68a7d1737ee0c">Create</a> (<a class="el" href="class_room.html">Room</a> room, <a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381">direction</a> <a class="el" href="class_architecture.html#a6e2bc9261208167729903e6229f31b10">dir</a>)</td></tr>
+<tr class="separator:a5d448a0db7a257a782a68a7d1737ee0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5324e59c2d3d52b48c0496030ed5b98"><td class="memItemLeft" align="right" valign="top">abstract <a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381">direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#ae5324e59c2d3d52b48c0496030ed5b98">GetRandom</a> ()</td></tr>
+<tr class="separator:ae5324e59c2d3d52b48c0496030ed5b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2f7553c454abf96d6e010c488021a23"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#af2f7553c454abf96d6e010c488021a23">RemoveFloor</a> (<a class="el" href="class_room.html">Room</a> room, Vector3 position)</td></tr>
+<tr class="separator:af2f7553c454abf96d6e010c488021a23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa44e2286fb17739ca29792ca953f7598"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#aa44e2286fb17739ca29792ca953f7598">CheckArchitectureCollision</a> (<a class="el" href="class_room.html">Room</a> room, List&lt; Vector3 &gt; positions)</td></tr>
+<tr class="separator:aa44e2286fb17739ca29792ca953f7598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0424dfa19f37a8644fc47cd1aee6de38"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#a0424dfa19f37a8644fc47cd1aee6de38">CheckDoorCollision</a> (<a class="el" href="class_room.html">Room</a> room, List&lt; Vector3 &gt; positions)</td></tr>
+<tr class="separator:a0424dfa19f37a8644fc47cd1aee6de38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06982bc912cac2da077aa173091f119"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#ab06982bc912cac2da077aa173091f119">GenerateArchitecture</a> (<a class="el" href="class_room.html">Room</a> room, List&lt; Vector3 &gt; positionsToRemove, List&lt; Vector3 &gt; positionsToInitOutSide, bool overridable)</td></tr>
+<tr class="separator:ab06982bc912cac2da077aa173091f119"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Открытые атрибуты</h2></td></tr>
+<tr class="memitem:a0f87dc8ec08506c2a5cd87f217e53958"><td class="memItemLeft" align="right" valign="top">System.Random&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#a0f87dc8ec08506c2a5cd87f217e53958">randomGen</a></td></tr>
+<tr class="separator:a0f87dc8ec08506c2a5cd87f217e53958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cc2724504168a578c71c2c3e46a7491"><td class="memItemLeft" align="right" valign="top">GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#a2cc2724504168a578c71c2c3e46a7491">wall</a></td></tr>
+<tr class="separator:a2cc2724504168a578c71c2c3e46a7491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Защищенные данные</h2></td></tr>
+<tr class="memitem:a3008c698774bb590e496e7a6f628310b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#a3008c698774bb590e496e7a6f628310b">right</a> = 1</td></tr>
+<tr class="separator:a3008c698774bb590e496e7a6f628310b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6366bc4c817742fde67a3f7190b344"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#acd6366bc4c817742fde67a3f7190b344">up</a> = 1</td></tr>
+<tr class="separator:acd6366bc4c817742fde67a3f7190b344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18771892a0cf600011c0521442be8a71"><td class="memItemLeft" align="right" valign="top">List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#a18771892a0cf600011c0521442be8a71">pos_remove</a></td></tr>
+<tr class="separator:a18771892a0cf600011c0521442be8a71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d2baa370042a09085bd0555ad9f003"><td class="memItemLeft" align="right" valign="top">List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#a27d2baa370042a09085bd0555ad9f003">pos_init</a></td></tr>
+<tr class="separator:a27d2baa370042a09085bd0555ad9f003"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fd37b5b96b8053f5a39228a27ac7d56"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#a3fd37b5b96b8053f5a39228a27ac7d56">pos_now</a></td></tr>
+<tr class="separator:a3fd37b5b96b8053f5a39228a27ac7d56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e2bc9261208167729903e6229f31b10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381">direction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_architecture.html#a6e2bc9261208167729903e6229f31b10">dir</a></td></tr>
+<tr class="separator:a6e2bc9261208167729903e6229f31b10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Перечисления</h2>
+<a id="ac83037dcd23f944af214f9af2fa3e381"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac83037dcd23f944af214f9af2fa3e381">&#9670;&nbsp;</a></span>direction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381">Architecture.direction</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Элементы перечислений</th></tr><tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381a258f49887ef8d14ac268c92b02503aaa"></a>Up&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381a08a38277b0309070706f6652eeae9a53"></a>Down&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381a92b09c7c48c520c3c55e497875da437c"></a>Right&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381a945d5e233cf7d6240f6b783b36a374ff"></a>Left&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381a18f1e5e66255e9d07ec2944fec962090"></a>DownRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381acd7f4772075da1452f8cd3648265b2c1"></a>DownLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381aee94ab0297ae02df64791255d0a3551e"></a>UpRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381a2b6ba04836dfad0c42bae644fcfaf890"></a>UpLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381a9b6d3000134648fc9f1e71094ae0847d"></a>Inside&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ac83037dcd23f944af214f9af2fa3e381a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="aa44e2286fb17739ca29792ca953f7598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa44e2286fb17739ca29792ca953f7598">&#9670;&nbsp;</a></span>CheckArchitectureCollision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Architecture.CheckArchitectureCollision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_room.html">Room</a>&#160;</td>
+          <td class="paramname"><em>room</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Vector3 &gt;&#160;</td>
+          <td class="paramname"><em>positions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0424dfa19f37a8644fc47cd1aee6de38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0424dfa19f37a8644fc47cd1aee6de38">&#9670;&nbsp;</a></span>CheckDoorCollision()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Architecture.CheckDoorCollision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_room.html">Room</a>&#160;</td>
+          <td class="paramname"><em>room</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Vector3 &gt;&#160;</td>
+          <td class="paramname"><em>positions</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d448a0db7a257a782a68a7d1737ee0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d448a0db7a257a782a68a7d1737ee0c">&#9670;&nbsp;</a></span>Create()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract void Architecture.Create </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_room.html">Room</a>&#160;</td>
+          <td class="paramname"><em>room</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381">direction</a>&#160;</td>
+          <td class="paramname"><em>dir</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="class_corners.html#a5593a60649e50129cf595171bdc0a32b">Corners</a>, <a class="el" href="class_cut_corners.html#adb6be3e431533a678fcab0cdc0cdd9b5">CutCorners</a>, <a class="el" href="class_small_rooms.html#adb785d1dccb9df8168247566589c52f7">SmallRooms</a>, <a class="el" href="class_columns.html#a73f4af16e7cb62a4a0f373e9ecd69b7b">Columns</a>, <a class="el" href="class_pools.html#a0d75ff45b7c1424cd49856214d7d3bfa">Pools</a> и <a class="el" href="class_cuts.html#ac139c9357b07645001b10c1794c32961">Cuts</a>.</p>
+
+</div>
+</div>
+<a id="ab06982bc912cac2da077aa173091f119"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06982bc912cac2da077aa173091f119">&#9670;&nbsp;</a></span>GenerateArchitecture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Architecture.GenerateArchitecture </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_room.html">Room</a>&#160;</td>
+          <td class="paramname"><em>room</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Vector3 &gt;&#160;</td>
+          <td class="paramname"><em>positionsToRemove</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">List&lt; Vector3 &gt;&#160;</td>
+          <td class="paramname"><em>positionsToInitOutSide</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>overridable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5324e59c2d3d52b48c0496030ed5b98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5324e59c2d3d52b48c0496030ed5b98">&#9670;&nbsp;</a></span>GetRandom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">abstract <a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381">direction</a> Architecture.GetRandom </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="class_columns.html#ac5769aed87eabc5fa18138b1ac176036">Columns</a>, <a class="el" href="class_pools.html#a246dacccdaf9239cc9d6e479e4de6ca4">Pools</a>, <a class="el" href="class_corners.html#a85fcadc13f443272faa7674b0b31d201">Corners</a>, <a class="el" href="class_cut_corners.html#a820b15f2312ebfa86edb1ad0c80fab35">CutCorners</a>, <a class="el" href="class_cuts.html#a0f122edc2e1aaf309f718528daac0f92">Cuts</a> и <a class="el" href="class_small_rooms.html#aeb2983979edabcbb5a6f75b4b97d1b44">SmallRooms</a>.</p>
+
+</div>
+</div>
+<a id="af2f7553c454abf96d6e010c488021a23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2f7553c454abf96d6e010c488021a23">&#9670;&nbsp;</a></span>RemoveFloor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Architecture.RemoveFloor </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_room.html">Room</a>&#160;</td>
+          <td class="paramname"><em>room</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>position</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a id="a6e2bc9261208167729903e6229f31b10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e2bc9261208167729903e6229f31b10">&#9670;&nbsp;</a></span>dir</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_architecture.html#ac83037dcd23f944af214f9af2fa3e381">direction</a> Architecture.dir</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a27d2baa370042a09085bd0555ad9f003"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d2baa370042a09085bd0555ad9f003">&#9670;&nbsp;</a></span>pos_init</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Vector3&gt; Architecture.pos_init</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3fd37b5b96b8053f5a39228a27ac7d56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd37b5b96b8053f5a39228a27ac7d56">&#9670;&nbsp;</a></span>pos_now</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 Architecture.pos_now</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18771892a0cf600011c0521442be8a71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18771892a0cf600011c0521442be8a71">&#9670;&nbsp;</a></span>pos_remove</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Vector3&gt; Architecture.pos_remove</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f87dc8ec08506c2a5cd87f217e53958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f87dc8ec08506c2a5cd87f217e53958">&#9670;&nbsp;</a></span>randomGen</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">System.Random Architecture.randomGen</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3008c698774bb590e496e7a6f628310b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3008c698774bb590e496e7a6f628310b">&#9670;&nbsp;</a></span>right</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Architecture.right = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acd6366bc4c817742fde67a3f7190b344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd6366bc4c817742fde67a3f7190b344">&#9670;&nbsp;</a></span>up</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Architecture.up = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2cc2724504168a578c71c2c3e46a7491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cc2724504168a578c71c2c3e46a7491">&#9670;&nbsp;</a></span>wall</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject [] Architecture.wall</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>O:/Unity Projects/MyGame/Assets/Scripts/Map_Generation/Architecture/<a class="el" href="_architecture_8cs.html">Architecture.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.16
+</small></address>
+</body>
+</html>

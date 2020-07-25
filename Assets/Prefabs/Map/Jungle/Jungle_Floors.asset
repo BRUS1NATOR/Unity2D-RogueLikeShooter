@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac604a5a9df8a647950ef905cc9bda2, type: 3}
+  m_Name: Jungle_Floors
+  m_EditorClassIdentifier: 
+  tiles:
+  - tile: {fileID: 1840628432732412, guid: e6d88ede34ad52043839f3afcd4f8743, type: 3}
+    chance: 0.2
+  - tile: {fileID: 1840628432732412, guid: f5709b606126f924d8bcc6eff8bf0853, type: 3}
+    chance: 0.2
+  - tile: {fileID: 1840628432732412, guid: e88e5ef921909d743a723e413c9c67d5, type: 3}
+    chance: 0.2
+  - tile: {fileID: 1840628432732412, guid: 583fd19fae2271045b378d3f9d02aa9f, type: 3}
+    chance: 0.2
+  - tile: {fileID: 1840628432732412, guid: e8ae5dc8310480340b85323a693ddf72, type: 3}
+    chance: 0.2

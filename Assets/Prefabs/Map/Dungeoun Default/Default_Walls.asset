@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fac604a5a9df8a647950ef905cc9bda2, type: 3}
+  m_Name: Default_Walls
+  m_EditorClassIdentifier: 
+  tiles:
+  - tile: {fileID: 1712330803544915133, guid: 8ca4343f2ed2e154094146e971bcbb12, type: 3}
+    chance: 0.5
+  - tile: {fileID: 1712330803544915133, guid: e9eeb4e35c275a842bd8b0050ca9da27, type: 3}
+    chance: 0.5

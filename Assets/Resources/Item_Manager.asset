@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a54181c16a370ae419f6296f09b3507b, type: 3}
+  m_Name: Item_Manager
+  m_EditorClassIdentifier: 
+  phaseNow: 0
+  phaseMax: 2
+  itemLight: {fileID: 5480611404809706021, guid: 73aa9b4e11aff7341a504bad89811408,
+    type: 3}
+  highLightMaterial: {fileID: 2100000, guid: f5f48c8e07b4aba4ebff5162b2d955f8, type: 2}
+  nothing:
+    itemsDb: {fileID: 0}
+    chance:
+    - 0.1
+    - 0.05
+    - 0.025
+  ammoItems:
+    itemsDb: {fileID: 11400000, guid: faf236701a77e7841a6844a89c266755, type: 2}
+    chance:
+    - 0.2
+    - 0.2
+    - 0.2
+  healItems:
+    itemsDb: {fileID: 11400000, guid: 9b82e5d082fd1ec4d92a5071da75a3c4, type: 2}
+    chance:
+    - 0.2
+    - 0.2
+    - 0.2
+  common_boostItems:
+    itemsDb: {fileID: 11400000, guid: 6cc319b2def4ed84ba600ccd5089c124, type: 2}
+    chance:
+    - 0.5
+    - 0.25
+    - 0.1
+  rare_BoostItems:
+    itemsDb: {fileID: 11400000, guid: 037741ce55cd69446806134aa6d963db, type: 2}
+    chance:
+    - 0.1
+    - 0.25
+    - 0.5
+  common_ModificatorItems:
+    itemsDb: {fileID: 11400000, guid: 816aabc2d32af89478892545c3c491a3, type: 2}
+    chance:
+    - 0.5
+    - 0.25
+    - 0.1
+  rare_ModificatorItems:
+    itemsDb: {fileID: 11400000, guid: 3a7bbad763aefc0418bc1a877da97cea, type: 2}
+    chance:
+    - 0.1
+    - 0.25
+    - 0.5
+  common_Items:
+    itemsDb: {fileID: 11400000, guid: 9079d793e18f08142bbe829f2e558860, type: 2}
+    chance:
+    - 0.5
+    - 0.25
+    - 0.1
+  rare_Items:
+    itemsDb: {fileID: 11400000, guid: 8d172e6ad38bea44fbe599bced90cae1, type: 2}
+    chance:
+    - 0.25
+    - 0.5
+    - 0.25
+  legendary_Items:
+    itemsDb: {fileID: 11400000, guid: cf194120f951341428e986232c601591, type: 2}
+    chance:
+    - 0.1
+    - 0.25
+    - 0.5
+  common_Weapons:
+    itemsDb: {fileID: 11400000, guid: d370d16e2250f08488c91f8e1c228e47, type: 2}
+    chance:
+    - 1
+    - 1
+    - 1
+  rare_Weapons:
+    itemsDb: {fileID: 11400000, guid: 9d878fce76fc60440a5778431ec0de2c, type: 2}
+    chance:
+    - 0.5
+    - 0.25
+    - 0.1
+  legendary_Weapons:
+    itemsDb: {fileID: 11400000, guid: 30ba401079a5e0747ad0685ab5d3ee54, type: 2}
+    chance:
+    - 0.5
+    - 0.25
+    - 0.1
