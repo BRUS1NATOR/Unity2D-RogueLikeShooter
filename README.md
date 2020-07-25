@@ -16,6 +16,10 @@ Some code may be stupid :)<br />
 ![alt text](Images/Generation.gif)
 ![alt text](Images/Screenshot_2.png) ![alt text](Images/Screenshot_3.png)
 
+## Dynamic lights & shadows! ##
+
+![alt text](Images/Light_2.png) ![alt text](Images/Light_1.png)
+
 ## Enemies! ##
 * Several types of enemies such as melee and firerange.
 * Bosses!<br />
