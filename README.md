@@ -43,8 +43,21 @@ Some code may be stupid :)<br />
 ![alt text](Images/Screenshot_7.png)
 
 ## Dynamic minimap! ##
-![alt text](Images/Screenshot_9.png)
+![alt text](Images/Screenshot_10.png)
 
+## Conrols ##
+* WASD to move.
+* LMB to shoot.
+* RMB to dodge.
+* 1,2,3,4 - change weapon.
+* R - reload weapon.
+* E - pick up item/weapon.
+* G - drop weapon.
+* F - drop item.
+* TAB - change items.
+* Space - use item.
+
+<p>
 Light and shadows with SpriteLightKit! https://github.com/prime31/SpriteLightKit <br />
 Destruction with Unity-2D-Destruction https://github.com/mjholtzem/Unity-2D-Destruction <br />
 </p>
