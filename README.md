@@ -4,8 +4,9 @@ RogueLike shooter on Unity
 Be aware, this is an old project for unity 2018.1 that ported to unity 2019.3, something may not work.
 So comments are in russian.
 So code may be stupid :) 
+There is a very little documentation made with Doxygen in Russian, search for index.html in Documentation folder.
 
-Random generation with room formation preset!
+Random generation with room formation preset (cut corners, small room etc.)!
 Generation by seed!
 Many settins such as room amount, shops amount, secret room amount, rooms width and height, different chances etc.
 Fully configurable envriments, from walls and tiles to barrels, paintings and torches!
@@ -28,6 +29,7 @@ Items and there spawn can be changed, depending on game stage.
 Items can be bought in shops or be found in chests.
 
 Dynamic minimap.
+
 
 Light and shadows with SpriteLightKit! https://github.com/prime31/SpriteLightKit
 
