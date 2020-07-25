@@ -42,10 +42,10 @@ Some code may be stupid :)<br />
 
 ![alt text](Images/Screenshot_7.png)
 
-## Dynamic minimap! ##
+## Dynamic Map & Minimap! ##
 ![alt text](Images/Screenshot_10.png)
 
-## Conrols ##
+## CONTROLS ##
 * WASD to move.
 * LMB to shoot.
 * RMB to dodge.
@@ -56,6 +56,7 @@ Some code may be stupid :)<br />
 * F - drop item.
 * TAB - change items.
 * Space - use item.
+* M - open map.
 
 <p>
 Light and shadows with SpriteLightKit! https://github.com/prime31/SpriteLightKit <br />
