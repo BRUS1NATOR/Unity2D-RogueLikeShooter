@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     public static GameManager instance = null;
     public OverallUI overallUI;
 
+    public int roomsAmountStart=8;
+    public int roomsAmountMenu=5;
+
     public delegate void endGame();
     public event endGame OnEndGame;
     public void RaiseEndGame()
@@ -183,7 +186,7 @@ public class GameManager : MonoBehaviour
                 infoText.text = "";
                 infoText.enabled = false;
 
-                yield return StartCoroutine(generator.GenerateLevel(2, false, null));
+                yield return StartCoroutine(generator.GenerateLevel(roomsAmountMenu, false, null));
 
                 StartCoroutine(Camera.main.GetComponent<Camera_Bounds>().FadeScreen(false, 3));
                 Camera.main.GetComponent<Camera_Bounds>().movement = CameraMovement.MoveAround;
@@ -202,7 +205,7 @@ public class GameManager : MonoBehaviour
                 infoText.enabled = true;
 
                 audioManager.PlayMusic(MusicType.ambient);
-                yield return StartCoroutine(generator.GenerateLevel(10, true, infoText));
+                yield return StartCoroutine(generator.GenerateLevel(roomsAmountStart, true, infoText));
 
                 Camera.main.GetComponent<Camera_Bounds>().movement = CameraMovement.ChasePlayer;
                 StartCoroutine(Camera.main.GetComponent<Camera_Bounds>().FadeScreen(false, 5));

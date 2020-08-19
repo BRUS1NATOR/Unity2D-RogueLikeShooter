@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(GameManager))]
 public class GeneratorManager : MonoBehaviour
 {
     public Map_Generation map_Generator;
