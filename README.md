@@ -71,7 +71,7 @@ Some code may be stupid :)<br />
 
   [Light and shadows with SpriteLightKit!](https://github.com/prime31/SpriteLightKit) </br>
   [Destruction with Unity-2D-Destruction](https://github.com/mjholtzem/Unity-2D-Destruction)</br>
-  [PixelCamera](https://github.com/SirGFM/Unity-Pixel-Perfect-Camera)</br>
+  [Pixel Perfect Retro Camera](https://github.com/MissEmbyr/Pixel-Perfect-Retro-Camera)</br>
   
 If this project was helpful, or you just a nice person, you can donate to [YandexMoney](https://money.yandex.ru/to/410018042496725)
 
