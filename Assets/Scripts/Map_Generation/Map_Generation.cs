@@ -142,6 +142,7 @@ public class Map_Generation : MonoBehaviour
             yield return StartCoroutine(Map.tiles.environment_gen.Create());
         }
 
+        Debug.Log(Map.mapIsGenerated);
         Map.mapIsGenerated = true;
 
 

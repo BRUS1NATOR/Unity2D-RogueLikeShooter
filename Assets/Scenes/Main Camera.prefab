@@ -8,7 +8,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7283750909277750643}
+  - component: {fileID: 8374798866330937824}
   - component: {fileID: 2583757694096413134}
   - component: {fileID: 2583757694096413133}
   - component: {fileID: 5092007861356730011}
@@ -22,15 +22,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &7283750909277750643
-RectTransform:
+--- !u!4 &8374798866330937824
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2583757694096413121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5092007861876203124}
@@ -39,11 +39,6 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 1}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!20 &2583757694096413134
 Camera:
   m_ObjectHideFlags: 0
@@ -75,7 +70,7 @@ Camera:
   m_Depth: 1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 97241383
+    m_Bits: 88852775
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -127,9 +122,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ca652c13353f448d9227970c0928082, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightCamera: {fileID: 5092007861876203122}
   referenceHeight: 360
   pixelsPerUnit: 32
+  lightCamera: {fileID: 5092007861876203125}
 --- !u!114 &457219900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -279,7 +274,7 @@ Transform:
   m_LocalScale: {x: 3, y: 1, z: 2}
   m_Children:
   - {fileID: 5092007860899755187}
-  m_Father: {fileID: 7283750909277750643}
+  m_Father: {fileID: 8374798866330937824}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 270, y: 0, z: 0}
 --- !u!33 &5092007860995649581
@@ -359,7 +354,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9178507061535144093}
-  m_Father: {fileID: 7283750909277750643}
+  m_Father: {fileID: 8374798866330937824}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &5092007861876203125
@@ -393,7 +388,7 @@ Camera:
   m_Depth: -9
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 3221225472
+    m_Bits: 2147483648
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -456,7 +451,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
-  m_Father: {fileID: 7283750909277750643}
+  m_Father: {fileID: 8374798866330937824}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}

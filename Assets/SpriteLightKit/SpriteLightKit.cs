@@ -50,7 +50,7 @@ namespace Prime31
 		float _previousCameraOrthoSize;
 		[HideInInspector]
 		[SerializeField]
-		Camera _spriteLightCamera;
+		public Camera _spriteLightCamera;
 		Transform _quadTransform;
 
 		RenderTexture _texture;
@@ -79,11 +79,6 @@ namespace Prime31
 
             transform.localPosition = Vector3.zero;
 
-            updateTexture();
-        }
-
-        private void Start()
-        {
             updateTexture();
         }
 
@@ -121,7 +116,6 @@ namespace Prime31
 			if( _spriteLightCamera != null )
 			{
 				_previousCameraOrthoSize = mainCamera.orthographicSize;
-				return;
 			}
 
 			_spriteLightCamera = GetComponent<Camera>();
@@ -132,7 +126,7 @@ namespace Prime31
 			}
 
 			_spriteLightCamera.CopyFrom( mainCamera );
-			mainCamera.cullingMask ^= lightLayer;
+
 			Debug.Log( "Be sure to remove the lightLayer set on the SpriteLightKit component from your main camera's culling mask!" );
 
 			// set our custom settings here

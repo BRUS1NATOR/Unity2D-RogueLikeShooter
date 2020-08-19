@@ -80,7 +80,7 @@ public class Camera_Bounds : MonoBehaviour
 
                                 initialized = true;
 
-                                StartCoroutine(Move(destination, 4));
+                                StartCoroutine(Move(4));
                             }
                         }
                     }
@@ -185,7 +185,7 @@ public class Camera_Bounds : MonoBehaviour
     float d = 1f / 32;
 
 
-    public IEnumerator Move(Vector2 destination, int speed)
+    public IEnumerator Move(int speed)
     {
         float step = (float)speed / 100;
         while ((transform.position.x != destination.x && transform.position.y != destination.y) && movement == CameraMovement.MoveAround)
