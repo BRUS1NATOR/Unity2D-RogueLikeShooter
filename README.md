@@ -70,4 +70,6 @@ Some code may be stupid :)<br />
 Light and shadows with SpriteLightKit! https://github.com/prime31/SpriteLightKit <br />
 Destruction with Unity-2D-Destruction https://github.com/mjholtzem/Unity-2D-Destruction <br />
 </p>
-[![YandexMoney](https://money.yandex.ru/to/410018042496725](https://img.shields.io/github/tag/yandex-money/yandex-checkout-payments-swift.svg)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](YOUR_EMAIL_CODE)
+[![Donate](https://img.shields.io/github/tag/yandex-money/yandex-checkout-payments-swift.svg](https://money.yandex.ru/to/410018042496725)
+[![Donate](https://money.yandex.ru/to/410018042496725](https://img.shields.io/github/tag/yandex-money/yandex-checkout-payments-swift.svg)
