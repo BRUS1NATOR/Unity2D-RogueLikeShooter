@@ -188,9 +188,9 @@ public class Camera_Bounds : MonoBehaviour
     public IEnumerator Move(int speed)
     {
         float step = (float)speed / 100;
-        while ((transform.position.x != destination.x && transform.position.y != destination.y) && movement == CameraMovement.MoveAround)
+        while ((transform.position.x != destination.x || transform.position.y != destination.y) && movement == CameraMovement.MoveAround)
         {
-            transform.position = Vector3.MoveTowards(transform.position, destination, step);
+            transform.position = Vector2.MoveTowards(transform.position, destination, step);
             yield return new WaitForSecondsRealtime(0.01f);
         }
         initialized = false;
