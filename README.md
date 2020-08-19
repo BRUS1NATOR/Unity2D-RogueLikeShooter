@@ -6,6 +6,7 @@ Be aware, this is an old project for unity 2018.1 that ported to unity 2019.3, s
 There is a very little documentation made with Doxygen in Russian, search for "index.html" in "Documentation" folder.<br />
 Some comments are in russian.<br />
 Some code may be stupid :)<br />
+USE ONLY 320x180*N resolutions (1080p,720p) or else configure/disable pixel perfect camera script <br />
 </p>
 
 ## Map generation! ##
