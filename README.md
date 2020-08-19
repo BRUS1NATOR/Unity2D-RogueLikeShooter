@@ -14,7 +14,8 @@ Some code may be stupid :)<br />
 * Fully configurable envriments, from walls and tiles to barrels, paintings and torches!
 
 ![alt text](Images/Generation.gif)
-![alt text](Images/Screenshot_2.png) ![alt text](Images/Screenshot_3.png)
+![alt text](Images/Screenshot_2.png) 
+![alt text](Images/Screenshot_3.png)
 
 ## Dynamic lights & shadows! ##
 
