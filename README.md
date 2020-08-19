@@ -68,7 +68,8 @@ Some code may be stupid :)<br />
 * M - open map.
 
 ## SPECIAL THANKS TO ##
-##
+
   [Light and shadows with SpriteLightKit!](https://github.com/prime31/SpriteLightKit) </br>
   [Destruction with Unity-2D-Destruction](https://github.com/mjholtzem/Unity-2D-Destruction)</br>
-##
+  [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://money.yandex.ru/to/410018042496725)
+
