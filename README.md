@@ -5,7 +5,6 @@ Be aware, this is an old project for unity 2018.1 that ported to unity 2019.3, s
 There is a very little documentation made with Doxygen in Russian, search for "index.html" in "Documentation" folder.<br />
 Some comments are in russian.<br />
 Some code may be stupid :)<br />
-  <iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=buyer&targets=&targets-hint=Donation&default-sum=100&button-text=14&payment-type-choice=on&hint=&successURL=&quickpay=shop&account=410018042496725" width="423" height="227" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
 </p>
 
 ## Map generation! ##
