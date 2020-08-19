@@ -70,5 +70,6 @@ Some code may be stupid :)<br />
 Light and shadows with SpriteLightKit! https://github.com/prime31/SpriteLightKit <br />
 Destruction with Unity-2D-Destruction https://github.com/mjholtzem/Unity-2D-Destruction <br />
 </p>
-
+[I'm an inline-style link](https://www.google.com)
 [GitHub Pages](https://pages.github.com/)
+[**Visit the website.**](http://markdown-here.com)<br>
