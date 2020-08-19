@@ -15,6 +15,7 @@ Some code may be stupid :)<br />
 
 | ![alt text](Images/Generation.gif) | ![alt text](Images/Screenshot_1.png) |
 |------------------------------------|--------------------------------------|
+|------------------------------------|--------------------------------------|
 ![alt text](Images/Screenshot_2.png) 
 ![alt text](Images/Screenshot_3.png)
 
