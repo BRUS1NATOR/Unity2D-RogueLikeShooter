@@ -1,5 +1,10 @@
 # RogueLike
 # RogueLike shooter on Unity #
+
+[I'm an inline-style link](https://www.google.com)
+[GitHub Pages](https://pages.github.com/)
+[**Visit the website.**](http://markdown-here.com)<br>
+
 <p>
 Be aware, this is an old project for unity 2018.1 that ported to unity 2019.3, something may not work.<br />
 There is a very little documentation made with Doxygen in Russian, search for "index.html" in "Documentation" folder.<br />
@@ -70,6 +75,3 @@ Some code may be stupid :)<br />
 Light and shadows with SpriteLightKit! https://github.com/prime31/SpriteLightKit <br />
 Destruction with Unity-2D-Destruction https://github.com/mjholtzem/Unity-2D-Destruction <br />
 </p>
-[I'm an inline-style link](https://www.google.com)
-[GitHub Pages](https://pages.github.com/)
-[**Visit the website.**](http://markdown-here.com)<br>
