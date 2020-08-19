@@ -53,7 +53,7 @@ Some code may be stupid :)<br />
 
 ## Dynamic Map & Minimap! ##
 ![alt text](Images/Screenshot_10.png)
-[I'm an inline-style link](https://www.google.com)
+
 ## CONTROLS ##
 * WASD to move.
 * LMB to shoot.
