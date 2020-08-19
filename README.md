@@ -70,8 +70,5 @@ Some code may be stupid :)<br />
 Light and shadows with SpriteLightKit! https://github.com/prime31/SpriteLightKit <br />
 Destruction with Unity-2D-Destruction https://github.com/mjholtzem/Unity-2D-Destruction <br />
 </p>
-<p>
-  </p>
-  <p> 
+
 [GitHub Pages](https://pages.github.com/)
- </p>
