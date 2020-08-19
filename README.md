@@ -12,6 +12,7 @@ Some code may be stupid :)<br />
 * Generation by seed!
 * Many settins such as room amount, shops amount, secret room amount, rooms width and height, different chances etc.
 * Fully configurable envriments, from walls and tiles to barrels, paintings and torches!
+* Configurate it with scriptable objects!
 
 | ![alt text](Images/Generation.gif) | ![alt text](Images/Screenshot_1.png) |
 |------------------------------------|--------------------------------------|
